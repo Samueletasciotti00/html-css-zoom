@@ -50,9 +50,35 @@ img{
 }
 
 
+.user{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 100px;
+}
+
+
 /* TOOL MENU BOTTOM */
 #tool-settings{
     height: 100px;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tool-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#tool-bar div{
+    max-width: 150px;
+    text-align: center;
+    
 }
 
 
@@ -62,37 +88,15 @@ img{
     align-items: center;
     gap: 10px;
 }
-/* DEBUG SECTION */
 
-.user{
-    display: inline-block;
-    width: 250px;
-    height: 100px;
-}
-
-/* .block-test{
-    width: 50%;
-    height: 400px;
-    border: 1px solid blue;
-    background-color: #fff;
-} */
-
-#tool-bar{
+#exit{
+    color: red;
+    background-color: gray;
+    height: 100%;
+    /* flex */
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
-}
-
-#tool-bar div{
-    max-width: 150px;
-    text-align: center;
-    
-}
-
-
-#tool-settings{
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
+
+
