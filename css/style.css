@@ -74,3 +74,20 @@ body{
     border: 1px solid blue;
     background-color: #fff;
 } */
+
+#tool-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1px;
+}
+
+#tool-bar i{
+    display: block;
+}
+
+#tool-settings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
