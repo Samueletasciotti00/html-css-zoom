@@ -39,11 +39,15 @@ body{
 /* MAIN MENU SETTINGS */
 #main-menu{
     height: calc(100vh - 150px);
-    width: 90%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     overflow-y: auto;
     /* DEBUG */
     border: 1px solid red;
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
 }
 
 
