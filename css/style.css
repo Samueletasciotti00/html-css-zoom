@@ -14,8 +14,6 @@ body{
 #nav{
     height: 50px;
     text-align: right;
-    /* DEBUG */
-    border: 1px solid red;
 }
 
 
@@ -37,12 +35,13 @@ body{
 }
 
 /* MAIN MENU SETTINGS */
+img{
+    max-width: 100%;
+}
+
 #main-menu{
     height: calc(100vh - 150px);
-    /* margin: 0 auto; */
     overflow-y: auto;
-    /* DEBUG */
-    border: 1px solid red;
     /* flex */
     display: flex;
     flex-wrap: wrap;
@@ -54,16 +53,19 @@ body{
 /* TOOL MENU BOTTOM */
 #tool-settings{
     height: 100px;
-    /* DEBUG */
-    border: 1px solid red;
+}
+
+
+#mic-video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
 }
 /* DEBUG SECTION */
 
-
 .user{
     display: inline-block;
-    border: 1px solid blue;
-    background-color: #fff;
     width: 250px;
     height: 100px;
 }
@@ -79,12 +81,15 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 1px;
+    gap: 10px;
 }
 
-#tool-bar i{
-    display: block;
+#tool-bar div{
+    max-width: 150px;
+    text-align: center;
+    
 }
+
 
 #tool-settings{
     display: flex;
