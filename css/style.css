@@ -1,0 +1,52 @@
+/* DEFAULT SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+}
+
+/* TOP BAR SETTINGS */
+#nav{
+    height: 50px;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
+
+/* MAIN MENU SETTINGS */
+#main-menu{
+    height: 100vh;
+    margin: auto;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
+
+/* TOOL MENU BOTTOM */
+#tool-settings{
+    height: 100px;
+    /* DEBUG */
+    border: 1px solid red;
+}
+/* DEBUG SECTION */
+
+
+.user{
+    display: inline-block;
+    border: 1px solid blue;
+    background-color: #fff;
+    width: calc(100% / 7 - 5px);
+    height: 100px;
+}
+
+/* .block-test{
+    width: 50%;
+    height: 400px;
+    border: 1px solid blue;
+    background-color: #fff;
+} */
