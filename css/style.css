@@ -13,15 +13,34 @@ body{
 /* TOP BAR SETTINGS */
 #nav{
     height: 50px;
+    text-align: right;
     /* DEBUG */
     border: 1px solid red;
 }
 
 
+/* TOOL UPPER MENU   */
+.up-tools{
+    background-color: gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#speaker{
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+}
+
+#arrow{
+    display: inline-block;
+}
+
 /* MAIN MENU SETTINGS */
 #main-menu{
-    height: 100vh;
-    margin: auto;
+    height: calc(100vh - 150px);
+    width: 90%;
+    margin: 0 auto;
     overflow-y: auto;
     /* DEBUG */
     border: 1px solid red;
@@ -41,7 +60,7 @@ body{
     display: inline-block;
     border: 1px solid blue;
     background-color: #fff;
-    width: calc(100% / 7 - 5px);
+    width: 250px;
     height: 100px;
 }
 
