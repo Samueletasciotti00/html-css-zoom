@@ -46,17 +46,23 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 
 .user{
     display: inline-block;
     position: relative;
-    width: 250px;
+    width: 200px;
     height: 100px;
 }
 
+.name{
+    position: absolute;
+    background-color: rgba(100, 100, 100, 0.7);
+    bottom: 0;
+    left: 0;
+}
 
 /* TOOL MENU BOTTOM */
 #tool-settings{
